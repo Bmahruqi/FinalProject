@@ -1,0 +1,61 @@
+
+  
+
+    
+<main class="container">
+     
+<h1 id="register">Register</h1>
+    <div class="row">   
+         
+        <div class="col-sm col-md-4"> 
+          
+            <form id="registerform" name="registration" method="post">
+                
+                 <div class="form-group">
+                    <label for="getName">Full Name</label> 
+                    <input type="text" class="form-control" id="getName" name="Name" placeholder="John  Doe" maxlength="30" required>
+                </div>   
+                
+                                 <div class="form-group">
+                    <label for="getDOB">Date Of Birth</label> 
+                    <input type="date" class="form-control" id="getDOB" name="DOB" >
+                </div> 
+                
+                              <div class="form-group">
+                    <label for="getPhoneNumber">Phone Number</label> 
+                    <input type="text" class="form-control" id="getPhoneNumber" name="PhoneNumber" placeholder="(08)3555223">
+                </div> 
+                
+                <div class="form-group">
+                    <label for="getEmail">Email address</label>
+                    <input type="email" class="form-control" id="getEmail" name="email" placeholder="Enter valid email address" aria-describedby="emailhelp">
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="getPassword1">Password</label> 
+                    <input type="password" class="form-control" id="getPassword1" name="password" placeholder="Password contain 8 characters should also contain (letters and numbers)" pattern=".{6,}">
+                </div>   
+                
+      
+                <input type='submit' class="btn btn-primary" value="Submit">
+            </form>
+                
+        </div> 
+            
+        <div class="col=sm col-md-8"> 
+        
+            
+        </div>    
+    </div>   
+    
+<script src="https://js.stripe.com/v3/"></script>
+
+</form>
+    
+    
+</main> 
+
+
+
+

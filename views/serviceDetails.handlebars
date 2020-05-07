@@ -1,0 +1,22 @@
+<h2> Service Listing </h2>
+
+
+<table>
+    <tr>
+
+        <th>Service</th>
+        <th>Price</th>
+    </tr>
+
+    {{#each data}}
+    <tr>
+      
+        <td>{{this.Name}}</td>
+        <td>{{this.Price}}</td>
+        <td><a href="/Details/{{@key}}">Details</a></td>
+    </tr>
+    {{/each}}
+
+
+</table>
+
