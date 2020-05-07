@@ -1,0 +1,150 @@
+body
+{
+    background-color: #353A40;
+}
+
+
+
+
+
+@media only screen and (min-width:320px)
+{
+  
+    #Logo
+{
+    width: 2.2em;
+    height: 2.2em;
+}
+.logosec
+{
+    padding-right: 12em;
+    padding-left: 1em;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 0.68em;
+    color: gray;
+    padding-left: 0.05em;
+}
+    
+    #contactheader
+     {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+      }
+    .container
+{
+    text-align: center;
+}
+   #map
+      {
+         display: inline-block;
+          height: 20em;
+          width: 23em;
+              
+      } 
+    #contactinfo
+    {
+        text-align: center;
+        color: skyblue;
+    }
+   
+       #Loginicon
+      {
+         margin-left: -60px;
+          width: 25px;
+          height: 25px;
+      }
+       #Loginicon:hover
+      {
+         text-decoration: none;
+         width: 2em;
+         height: 2em;
+      }
+        h2
+      {
+          margin-left: -80px;
+         font-size: 0.5em;
+         color: white;
+      } 
+      .btn-toolbar
+      {
+          width:50%;
+  font-size: 50%;
+      }
+      
+      .btn-group
+      {
+          width:50%;
+  font-size: 50%;
+      }
+}
+
+@media only screen and (min-width:992px)
+{
+    
+       #Logo
+{
+    width: 2.2em;
+    height: 2.2em;
+}
+.logosec
+{
+    padding-right: 12em;
+    padding-left: 1em;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 0.68em;
+    color: gray;
+    padding-left: 0.05em;
+}
+    
+    #contactheader
+     {
+        color: white;
+        text-align: center;
+        font-size: 2ems;
+      }
+   #map
+      {
+         
+          height: 30em;
+          width: 33em;
+          float: left;
+          
+              
+      } 
+    
+    #contactinfo
+    {
+        float: right;
+        margin-right: 10em;
+    }
+   
+       #Loginicon
+      {
+        margin-left: -60px;
+        width: 25px;
+        height: 25px;
+      }
+    
+       #Loginicon:hover
+      {
+         text-decoration: none;
+         width: 20em;
+         height: 20em;
+      }
+    
+        h2
+      {
+          margin-left: -80px;
+         font-size: 0.5em;
+         color: white;
+      } 
+    
+}
+

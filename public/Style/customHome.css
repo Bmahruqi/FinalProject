@@ -1,0 +1,218 @@
+body
+    {
+    background-color: #353A40;
+}
+
+
+
+
+@media only screen and (min-width:320px)
+{
+    #Logo
+{
+    width: 2.2em;
+    height: 2.2em;
+}
+.logosec
+{
+    padding-right: 12em;
+    padding-left: 1em;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 0.68em;
+    color: gray;
+    padding-left: 0.05em;
+}
+    
+    #slides
+    {
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+    }
+    .mainImg
+    {
+        width: 100%;
+        height: 23em;
+    }
+    #aboutus
+    {
+        margin-top: 2em;
+        padding:2em 0em 2em 0em;
+        background-color: black;
+        color: white
+    }
+    #aboutustitle
+    {
+        color: white;
+        text-align: center;
+    }
+    .card
+    {
+        height: 25e6m;
+    }
+    .cardimg
+    {
+        width:19.9em;
+        height:18em; 
+    }
+    
+    .card-body
+    {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+.Cards
+    {
+      text-align: center;
+        column-count: 1;
+    }
+    #card1
+    {
+    display: inline-block;
+        margin-top: 2em;
+        width: 20em;
+        
+      
+    }
+    
+    #card2
+    {
+        display: inline-block;
+        width: 20em;
+        margin-top: 3em; 
+    }
+
+    .btn-toolbar
+    {
+        width:50%;
+       font-size: 50%;
+    }
+    
+    .btn-group
+    {
+        width:50%;
+        font-size: 50%;
+    }
+
+}
+
+@media only screen and (min-width:768px)
+{
+    #Logo
+{
+    width: 60px;
+    height: 50px;
+}
+.logosec
+{
+    padding-right: 250px;
+    padding-left: 30px;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 11px;
+    color: gray;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.btn
+{
+    background-color:black;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+    
+    #slides
+    {
+        border-radius: 15px;
+        margin-bottom: 14px;
+    }
+    .mainImg
+    {
+        
+        height: 690px;
+    }
+
+.Cards
+    {
+      text-align: center;
+        column-count: 1;
+    }
+    #card1
+    {
+    display: inline-block;
+        margin-top: 2em;
+        width: 20em;
+    }
+    
+    #card2
+    {
+        display: inline-block;
+        width: 20em;
+        margin-top: 3em; 
+    }
+}
+
+@media only screen and (min-width:1024px)
+{
+    #Logo
+{
+    width: 60px;
+    height: 50px;
+}
+.logosec
+{
+    padding-right: 250px;
+    padding-left: 30px;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 11px;
+    color: gray;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.btn
+{
+    background-color:black;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+    
+    #slides
+    {
+        border-radius: 15px;
+        margin-bottom: 14px;
+    }
+    .mainImg
+    {
+        
+        height: 690px;
+    }
+
+    #Card1
+    {
+        margin-top: 30px;
+        margin-left: 260px;
+      
+       float: left;
+    }
+    
+    #Card2
+    {
+        margin-top: 30px;
+        margin-right: 260px;
+       float: right; 
+    }
+}
+
+

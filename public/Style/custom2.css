@@ -1,0 +1,123 @@
+body
+    {
+    background-color: #353A40;
+}
+
+
+
+
+@media only screen and (min-width:320px)
+{
+    #Logo
+{
+    width: 2.2em;
+    height: 2.2em;
+}
+.logosec
+{
+    padding-right: 12em;
+    padding-left: 1em;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 0.68em;
+    color: gray;
+    padding-left: 0.05em;
+}
+    
+ .row
+    {
+        padding: 1em 1em 1em 1em;
+        background-color: white;
+        color: black;
+        
+    }
+    #register
+    {
+        text-align: center;
+        color: white;
+    }
+
+    .btn-toolbar
+    {
+        width:50%;
+font-size: 50%;
+    }
+    
+    .btn-group
+    {
+        width:50%;
+font-size: 50%;
+    }
+
+}
+
+@media only screen and (min-width:768px)
+{
+    #Logo
+{
+    width: 60px;
+    height: 50px;
+}
+.logosec
+{
+    padding-right: 250px;
+    padding-left: 30px;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 11px;
+    color: gray;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+    .row
+    {
+        margin-right: 1em;
+        margin-left: 9em;
+        padding: 1em 1em 1em 1em;
+        background-color: white;
+        color: black;
+        
+    }
+    .form-control
+    {
+        width: 30em;
+    }
+    
+}
+
+@media only screen and (min-width:1024px)
+{
+    #Logo
+{
+    width: 60px;
+    height: 50px;
+}
+.logosec
+{
+    padding-right: 250px;
+    padding-left: 30px;
+}
+.logosec h1
+{
+    font-family:fantasy;
+    font-size: 11px;
+    color: gray;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+    .row
+    {
+        padding: 1em 1em 1em 1em;
+        background-color: white;
+        color: black;
+    }
+    
+}
+
+
